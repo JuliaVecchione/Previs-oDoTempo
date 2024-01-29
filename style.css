@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+body{
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.hdqwalls.com/wallpapers/anime-original-8k-1p.jpg");
+  background-repeat: no-repeat;
+   background-size: cover; 
+  
+}
+.box-big{
+  background-color: rgb(89, 59, 198);
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  width: 90%;
+  height: 90%;
+  max-height: 350px;
+  max-width: 550px;
+  align-items: center;
+  justify-content:center;
+  margin-left: 55px;
+  
+}
+.input-city{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px ;
+  font-size: 16px;
+  background-color: #6f67712b;
+  color: #ffff;
+  width: calc(100% - 75px);
+}
+.bnt-search{
+border: none;
+outline: none;
+padding: 10px;
+border-radius: 50px;
+background-color: #6f67712b;
+cursor: pointer;
+float: right;
+}
+.img-search{
+  width: 20px;
+}
+.box-medium{
+  margin-top: 30px;
+
+}
+.city{
+  color: #ffff;
+  font-size: 27px;
+  font-weight: 300;
+}
+.temp{
+  font-size: 25px;
+  color: #ffff;
+  margin-top: 20px;
+}
+.box-smaller{
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.text-prev{
+ color: #ffff;
+ margin-left: 20px;
+ text-transform: capitalize;
+ font-size: 17px;
+}
+.umi{
+  color: #ffff;
+  margin-top: 25px;
+  font-size: 16px;
+}
